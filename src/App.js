@@ -7,10 +7,14 @@ function App() {
   return (
     <div className="App">
       <h1>Dicționar de Nonlogisme</h1>
-      <p>
-        Cuvântul <b>"Nonlogism"</b> este un termen creat pentru a descrie un cuvânt care nu există într-o limbă dar ar trebui să existe (un
-        gol/lacună lexicală), iar nevoia acestuia se simte în realitatea lingvistică.
-      </p>
+      <h2>
+        Ce sunt <b>nonlogismele</b>?
+      </h2>
+      <span>
+        <b>"Nonlogismele"</b> sunt cuvinte create pentru a descrie un cuvânt care nu există într-o limbă dar ar trebui să existe (un
+        gol/lacună lexicală), iar nevoia acestora se simte în realitatea lingvistică.
+      </span>
+      <h2 style={{ marginTop: 40 }}>Lista nonlogismelor actuale</h2>
       <Dictionary words={wordList} />
     </div>
   );

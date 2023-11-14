@@ -1,36 +1,109 @@
 .word {
   background-color: #ffffff;
-  border-left: 5px solid #2a2a72;
+  border-left: 5px solid #102e5e;
   margin: 20px 0;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
 }
 
-.word:hover {
-  border-left: 5px solid #4a4e69;
+p {
+  margin: 0;
 }
 
-.word h2 {
-  color: #2a2a72;
+.word-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.word-header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.word-image {
+  width: 100px; /* Adjusted for better space efficiency */
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.word-title {
+  color: #102e5e; /* Albastru mai profund */
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
-.word p,
-.word b {
-  color: #333;
-  font-size: 1rem;
+.word-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.word b {
+.label {
+  font-weight: 700;
+  color: #000; /* Stilizare etichete */
+  margin-bottom: 5px;
+  display: block;
+}
+
+.word-examples {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.word-examples ul {
+  margin: 0;
+}
+
+.example {
+  /* background-color: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 8px; */
+  /* border: 1px dotted #cfd8dc; */
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.word-part-of-speech {
+  background: #102e5e;
+  color: #fff;
+  font-size: 13px;
   font-weight: 600;
-  color: #4a4e69;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* border-top-left-radius: 16px; */
+  border-bottom-left-radius: 16px;
+  padding: 4px 12px;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
-  .word h2 {
+  .word {
+    flex-direction: column;
+  }
+
+  .word-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .word-image {
+    width: 250px; /* Larger image for smaller screens */
+    margin-bottom: 10px;
+  }
+
+  .word-title {
     font-size: 1.5rem;
   }
 }
