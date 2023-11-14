@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import Dictionary from './components/Dictionary';
+import wordList from './word-list';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Dicționar de Nonlogisme</h1>
+      <p>
+        Cuvântul <b>"Nonlogism"</b> este un termen creat pentru a descrie un cuvânt care nu există într-o limbă dar ar trebui să existe (un
+        gol/lacună lexicală), iar nevoia acestuia se simte în realitatea lingvistică.
+      </p>
+      <Dictionary words={wordList} />
     </div>
   );
 }

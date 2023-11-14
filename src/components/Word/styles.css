@@ -1,0 +1,36 @@
+.word {
+  background-color: #ffffff;
+  border-left: 5px solid #2a2a72;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.word:hover {
+  border-left: 5px solid #4a4e69;
+}
+
+.word h2 {
+  color: #2a2a72;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.word p,
+.word b {
+  color: #333;
+  font-size: 1rem;
+}
+
+.word b {
+  font-weight: 600;
+  color: #4a4e69;
+}
+
+@media (max-width: 768px) {
+  .word h2 {
+    font-size: 1.5rem;
+  }
+}
