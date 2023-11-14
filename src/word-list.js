@@ -6,7 +6,7 @@ const wordList = [
     definition: 'Cuvânt pentru un concept care nu există într-o limbă, dar care ar trebui să existe conform realității lingvistice.',
     examples: [
       'Crearea de nonlogisme este un proces natural, care asigură limbii flexibilitatea necesară pentru a exprima noi idei și concepte.',
-      'Cuvântul “monoplanetar” este un nonlogism deoarece nu există în limba română, dar ar trebui.',
+      'Cuvântul „monoplanetar” este un nonlogism deoarece nu există în limba română, dar ar trebui.',
     ],
     etymology: 'prin sudare (non + logism)',
   },

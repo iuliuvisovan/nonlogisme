@@ -6,7 +6,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Dicționar de Nonlogisme</h1>
+      <div className="header">
+        <img src={`/images/nonlogism.png`} alt="Nonlogism" />
+        <h1>Dicționar de Nonlogisme</h1>
+      </div>
       <h2>
         Ce sunt <b>nonlogismele</b>?
       </h2>

@@ -66,12 +66,9 @@ p {
 }
 
 .example {
-  /* background-color: #f5f5f5;
-  padding: 4px 8px;
-  border-radius: 8px; */
-  /* border: 1px dotted #cfd8dc; */
   font-style: italic;
   margin-bottom: 8px;
+  font-weight: 400;
 }
 
 .word-part-of-speech {
@@ -105,5 +102,11 @@ p {
 
   .word-title {
     font-size: 1.5rem;
+  }
+
+  .word-part-of-speech {
+    top: 285px;
+    font-size: 12px;
+    border-top-left-radius: 16px;
   }
 }
