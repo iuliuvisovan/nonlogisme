@@ -345,7 +345,7 @@ const wordList = [
       'Publicația aceasta este considerată o sursă autoritativă în domeniul tehnologiei.',
       'Informația autoritativă prezentată în raportul oficial a clarificat multe dintre îndoielile existente.',
     ],
-    etymology: 'derivat de la termenul englez "authoritative" prin adaptare fonetică și morfologică',
+    etymology: 'calchiere. de la termenul englez "authoritative" prin adaptare fonetică și morfologică',
   },
   {
     slug: 'monoplanetar',
