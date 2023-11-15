@@ -102,7 +102,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă pătratică. Analog cu discul pentru cerc.',
     examples: ['-George, care e aria acestui pătrat? -Pătratul nu are arie. Vrei să spui al acestui pătrisc?'],
-    etymology: 'morfosinteză / pătrat + isc',
+    etymology: 'morfosinteză (pătrat + isc)',
   },
   {
     slug: 'trisc',
@@ -110,7 +110,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă triunghică. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (triunghi + isc)',
   },
   {
     slug: 'drisc',
@@ -118,7 +118,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă dreptunghiulară. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (dreptunghi + isc)',
   },
   {
     slug: 'rombisc',
@@ -126,7 +126,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă rombică. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (romb + isc)',
   },
   {
     slug: 'trapisc',
@@ -134,7 +134,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă trapezoidală. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (trapez + isc)',
   },
   {
     slug: 'pentisc',
@@ -142,7 +142,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă pentagonală. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (pentagon + isc)',
   },
   {
     slug: 'hexisc',
@@ -150,7 +150,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă hexagonală. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (hexagon + isc)',
   },
   {
     slug: 'heptisc',
@@ -158,7 +158,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă heptagonală. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'morfosinteză (heptagon + isc)',
   },
   {
     slug: 'octisc',
@@ -166,7 +166,7 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă octogonală. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'inventare',
+    etymology: 'octogon (heptagon + isc)',
   },
   {
     slug: 'facubil',
