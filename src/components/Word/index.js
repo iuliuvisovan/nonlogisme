@@ -13,16 +13,18 @@ export default function Word({ word }) {
         </div>
       </div>
       <div className="word-content">
-        <div className="word-examples">
-          <span className="label">Exemple</span>
-          <ul>
-            {word.examples.map((example, index) => (
-              <li key={index} className="example">
-                „{example}”
-              </li>
-            ))}
-          </ul>
-        </div>
+        {word.examples.length > 0 && (
+          <div className="word-examples">
+            <span className="label">Exemple</span>
+            <ul>
+              {word.examples.map((example, index) => (
+                <li key={index} className="example">
+                  „{example}”
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
         <div className="word-etymology">
           <span className="label">Etimologie</span>
           <p>{word.etymology}</p>

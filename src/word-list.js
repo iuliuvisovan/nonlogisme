@@ -101,7 +101,7 @@ const wordList = [
     word: 'Pătrisc',
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă pătratică. Analog cu discul pentru cerc.',
-    examples: ['George, care e aria acestui pătrat? -Pătratul nu are arie. Vrei să spui al acestui pătrisc?'],
+    examples: ['-George, care e aria acestui pătrat? -Pătratul nu are arie. Vrei să spui al acestui pătrisc?'],
     etymology: 'morfosinteză / pătrat + isc',
   },
   {
