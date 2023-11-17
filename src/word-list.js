@@ -2,7 +2,8 @@ const wordList = [
   {
     slug: 'nonlogism',
     word: 'Nonlogism',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Cuvânt pentru un concept care nu există într-o limbă, dar care ar trebui să existe conform realității lingvistice.',
     examples: [
       'Crearea de <b>nonlogisme</b> este un proces natural, care asigură limbii flexibilitatea necesară pentru a exprima noi idei și concepte.',
@@ -13,7 +14,8 @@ const wordList = [
   {
     slug: 'morfosinteza',
     word: 'Morfosinteză',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Proces de creare a cuvintelor noi într-o limbă prin combinarea și manipularea formelor morfologice existente.',
     examples: ['<b>Morfosinteza</b> a fost folosită pentru a crea cuvântul "frăsori" prin combinarea cuvintelor "frate" și "soră".'],
     etymology: 'Combinarea cuvintelor "morfologie" și "sinteză".',
@@ -21,7 +23,8 @@ const wordList = [
   {
     slug: 'fiut',
     word: 'Fiut',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Formă de participiu a verbului “a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
     examples: [
       '<b>Fiutul</b> de student la medicină implică multe ore de studiu și practică.',
@@ -33,6 +36,7 @@ const wordList = [
     slug: 'acunci',
     word: 'Acunci',
     partOfSpeech: 'adverb',
+    partOfSpeechType: 'de timp',
     definition: 'Adverbul “acum”, doar că relativ la “atunci”.',
     examples: [
       'Era anul 2019, iar România celebra revoluția de <b>acunci</b> 30 ani.',
@@ -43,7 +47,8 @@ const wordList = [
   {
     slug: 'hat',
     word: 'Hăt',
-    partOfSpeech: 'interjecție',
+    partOfSpeech: 'adverb',
+    partOfSpeechType: 'de loc',
     definition: 'Oriunde dar nu aici. Generalizarea regionalismului “hăt”, echivalentul cuvântului englezesc “away”.',
     examples: ['Du-te <b>hăt</b>! (“Go away!”)'],
     etymology: 'generalizare intralinguală',
@@ -78,7 +83,8 @@ const wordList = [
   {
     slug: 'verinat',
     word: 'Verinat(ă)',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Soțul sau soția unui verișor. Verișor + cumnat.',
     examples: [
       'La nunta surorii mele am avut ocazia să-l întâlnesc pentru prima dată pe <b>verinatul</b> meu, soțul verișoarei mele.',
@@ -99,7 +105,8 @@ const wordList = [
   {
     slug: 'patrisc',
     word: 'Pătrisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă pătratică. Analog cu discul pentru cerc.',
     examples: ['-George, care e aria acestui pătrat? -Pătratul nu are arie. Vrei să spui al acestui <b>pătrisc</b>?'],
     etymology: 'morfosinteză (pătrat + isc)',
@@ -107,7 +114,8 @@ const wordList = [
   {
     slug: 'trisc',
     word: 'Trisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă triunghică. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (triunghi + isc)',
@@ -115,7 +123,8 @@ const wordList = [
   {
     slug: 'drisc',
     word: 'Drisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă dreptunghiulară. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (dreptunghi + isc)',
@@ -123,7 +132,8 @@ const wordList = [
   {
     slug: 'rombisc',
     word: 'Rombisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă rombică. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (romb + isc)',
@@ -131,7 +141,8 @@ const wordList = [
   {
     slug: 'trapisc',
     word: 'Trapisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă trapezoidală. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (trapez + isc)',
@@ -139,7 +150,8 @@ const wordList = [
   {
     slug: 'pentisc',
     word: 'Pentisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă pentagonală. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (pentagon + isc)',
@@ -147,7 +159,8 @@ const wordList = [
   {
     slug: 'hexisc',
     word: 'Hexisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă hexagonală. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (hexagon + isc)',
@@ -155,7 +168,8 @@ const wordList = [
   {
     slug: 'heptisc',
     word: 'Heptisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă heptagonală. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'morfosinteză (heptagon + isc)',
@@ -163,7 +177,8 @@ const wordList = [
   {
     slug: 'octisc',
     word: 'Octisc',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă octogonală. Analog cu discul pentru cerc.',
     examples: [],
     etymology: 'octogon (heptagon + isc)',
@@ -212,7 +227,8 @@ const wordList = [
   {
     slug: 'luni-marti-miercuri-joi-vineri-sambata-duminica',
     word: 'Luni, Marți, Miercuri, Joi, Vineri, Sâmbătă, Duminică',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Numele zilelor săptămânii, dar cu literă mare, fiindcă sunt nume.',
     examples: ['Salut Andrei, <b>Marți</b> spuneați că mergeți la munte? -Salut, cred că până la urmă vom merge doar <b>Miercuri</b>.'],
     etymology: 'numele zilelor săptămânii, dar cu literă mare',
@@ -220,7 +236,8 @@ const wordList = [
   {
     slug: 'ianuarie-februarie-martie-aprilie-mai-iunie-iulie-august-septembrie-octombrie-noiembrie-decembrie',
     word: 'Ianuarie, Februarie, Martie, Aprilie, Mai, Iunie, Iulie, August, Septembrie, Octombrie, Noiembrie, Decembrie',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Numele lunilor anului, dar cu literă mare, fiindcă sunt nume.',
     examples: ['Salut Andrei, în <b>Martie</b> e ziua ta? -Salut! Nu, ziua mea e în <b>Aprilie</b>.'],
     etymology: 'numele lunilor anului, dar cu literă mare',
@@ -236,7 +253,8 @@ const wordList = [
   {
     slug: 'completate',
     word: 'Completate',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Generalizare/substantivare a adjectivului “complet”, cu scopul de face referire la diferite grade ale acestuia.',
     examples: [
       'Din cele 7 sectoare de autostradă, doar 2 au fost finalizate până acum, restul fiind în diferite grade de <b>completate</b>.',
@@ -246,7 +264,8 @@ const wordList = [
   {
     slug: 'frasor',
     word: 'Frăsor',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Termen neutru de gen care se referă la un frate sau o soră.',
     examples: ['Am în total 5 <b>frăsori</b>: 2 frați și 3 surori.', 'Ea se înțelege foarte bine cu <b>frăsorii</b> ei.'],
     etymology: 'Amestec între "frate" și "soră".',
@@ -254,7 +273,8 @@ const wordList = [
   {
     slug: 'fil',
     word: 'Fil',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Termen neutru de gen care se referă la un fiu sau o fiică.',
     examples: [
       'Am doi <b>fili</b>: un fiu și o fiică.',
@@ -265,7 +285,8 @@ const wordList = [
   {
     slug: 'adultie',
     word: 'Adulție',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition: 'Partea din viața unui om în care este adult.',
     examples: [
       'Oamenii au de obicei mai mult timp la bătrânețe decât la <b>adulție</b>.',
@@ -370,7 +391,8 @@ const wordList = [
   {
     slug: 'viata',
     word: 'Viață',
-    partOfSpeech: 'substantiv comun',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
     definition:
       'Entitate holistică constituită din totalitatea vietăților care înglobează toate formele de viață într-un scop unic și comun.',
     examples: [
