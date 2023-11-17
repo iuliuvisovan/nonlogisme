@@ -5,8 +5,8 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Cuvânt pentru un concept care nu există într-o limbă, dar care ar trebui să existe conform realității lingvistice.',
     examples: [
-      'Crearea de nonlogisme este un proces natural, care asigură limbii flexibilitatea necesară pentru a exprima noi idei și concepte.',
-      'Cuvântul „monoplanetar” este un nonlogism deoarece nu există în limba română, dar ar trebui.',
+      'Crearea de <b>nonlogisme</b> este un proces natural, care asigură limbii flexibilitatea necesară pentru a exprima noi idei și concepte.',
+      'Cuvântul „monoplanetar” este un <b>nonlogism</b> deoarece nu există în limba română, dar ar trebui.',
     ],
     etymology: 'prin sudare (non + logism)',
   },
@@ -15,7 +15,7 @@ const wordList = [
     word: 'Morfosinteză',
     partOfSpeech: 'substantiv comun',
     definition: 'Proces de creare a cuvintelor noi într-o limbă prin combinarea și manipularea formelor morfologice existente.',
-    examples: ['Morfosinteza a fost folosită pentru a crea cuvântul "frăsori" prin combinarea cuvintelor "frate" și "soră".'],
+    examples: ['<b>Morfosinteza</b> a fost folosită pentru a crea cuvântul "frăsori" prin combinarea cuvintelor "frate" și "soră".'],
     etymology: 'Combinarea cuvintelor "morfologie" și "sinteză".',
   },
   {
@@ -24,8 +24,8 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Formă de participiu a verbului “a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
     examples: [
-      'Fiutul de student la medicină implică multe ore de studiu și practică.',
-      'Fiutul de președinte este o responsabilitate mare.',
+      '<b>Fiutul</b> de student la medicină implică multe ore de studiu și practică.',
+      '<b>Fiutul</b> de președinte este o responsabilitate mare.',
     ],
     etymology: 'morfosinteză',
   },
@@ -35,8 +35,8 @@ const wordList = [
     partOfSpeech: 'adverb',
     definition: 'Adverbul “acum”, doar că relativ la “atunci”.',
     examples: [
-      'Era anul 2019, iar România celebra revoluția de acunci 30 ani.',
-      'M-a întrebat Adrian miercurea trecută dacă vreau să vin la fotbal dar am refuzat, deoarece eu tocmai jucasem acunci 2 zile.',
+      'Era anul 2019, iar România celebra revoluția de <b>acunci</b> 30 ani.',
+      'M-a întrebat Adrian miercurea trecută dacă vreau să vin la fotbal dar am refuzat, deoarece eu tocmai jucasem <b>acunci</b> 2 zile.',
     ],
     etymology: 'prin fuziune “acum” + “atunci”',
   },
@@ -45,7 +45,7 @@ const wordList = [
     word: 'Hăt',
     partOfSpeech: 'interjecție',
     definition: 'Oriunde dar nu aici. Generalizarea regionalismului “hăt”, echivalentul cuvântului englezesc “away”.',
-    examples: ['Du-te hăt! (“Go away!”)'],
+    examples: ['Du-te <b>hăt</b>! (“Go away!”)'],
     etymology: 'generalizare intralinguală',
   },
   {
@@ -53,7 +53,7 @@ const wordList = [
     word: 'Ecoic(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Cu ecou (despre o cameră, încăpere, container, etc.)',
-    examples: ['Camera aceasta este prea ecoică.'],
+    examples: ['Camera aceasta este prea <b>ecoică</b> pentru a efectua înregistrări de calitate.'],
     etymology: 'derivare cu sufix (ecou + ic)',
   },
   {
@@ -62,8 +62,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Care se caracterizează prin adâncime mică sau lipsa adâncimii. Antonimul cuvântului “adânc”.',
     examples: [
-      'Această fântână este șalotă.',
-      'Această piscină are o zonă foarte adâncă și o zonă mai șalotă, unde copiii pot înota în siguranță.',
+      'Această fântână este <b>șalotă</b>.',
+      'Această piscină are o zonă foarte adâncă și o zonă mai <b>șalotă</b>, unde copiii pot înota în siguranță.',
     ],
     etymology: 'inventare',
   },
@@ -72,7 +72,7 @@ const wordList = [
     word: 'Suez(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Originar din/aparținând statului SUA.',
-    examples: ['La fel cum un om din Franța este francez, un om din SUA este suez.', 'Acest om este suez, din SUA.'],
+    examples: ['La fel cum un om din Franța este francez, un om din SUA este <b>suez</b>.', 'Acest om este <b>suez</b>, din SUA.'],
     etymology: 'derivare cu sufix (SUA + ez)',
   },
   {
@@ -81,8 +81,8 @@ const wordList = [
     partOfSpeech: 'substantiv comun',
     definition: 'Soțul sau soția unui verișor. Verișor + cumnat.',
     examples: [
-      'La nunta surorii mele am avut ocazia să-l întâlnesc pentru prima dată pe verinatul meu, soțul verișoarei mele.',
-      'Andrei, unde-i unchiu-to Adi? -Nu mi-e unchi! E soțul verișoarei mele: mi-e verinat!',
+      'La nunta surorii mele am avut ocazia să-l întâlnesc pentru prima dată pe <b>verinatul</b> meu, soțul verișoarei mele.',
+      'Andrei, unde-i unchiu-to Adi? -Nu mi-e unchi! E soțul verișoarei mele: mi-e <b>verinat</b>!',
     ],
     etymology: 'sudare (verișor + cumnat)',
   },
@@ -92,7 +92,7 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce-ți creează sentimentul de milă.',
     examples: [
-      'Am văzut articolul… nu știu ce să zic, nu mi s-a părut amuzant deloc. Mai degrabă milant, când am văzut copii aceia africani întinzând mâna spre cameraman.',
+      'Am văzut videoul.. nu știu ce să zic, mi s-a părut mai degrabă <b>milant</b> decât amuzant, văzând acei copii întinzând mâna spre cameraman.',
     ],
     etymology: 'derivare cu sufix (milă + ant)',
   },
@@ -101,7 +101,7 @@ const wordList = [
     word: 'Pătrisc',
     partOfSpeech: 'substantiv comun',
     definition: 'Suprafața poligonală de formă pătratică. Analog cu discul pentru cerc.',
-    examples: ['-George, care e aria acestui pătrat? -Pătratul nu are arie. Vrei să spui al acestui pătrisc?'],
+    examples: ['-George, care e aria acestui pătrat? -Pătratul nu are arie. Vrei să spui al acestui <b>pătrisc</b>?'],
     etymology: 'morfosinteză (pătrat + isc)',
   },
   {
@@ -174,8 +174,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi făcut.',
     examples: [
-      'Această lucrare este făcubilă.',
-      'Nu pot să înțeleg cum nu reușește să parcheze în acel spațiu. E cel mai făcubil lucru posibil.',
+      'Această lucrare este <b>făcubilă</b>.',
+      'Nu pot să înțeleg cum nu reușește să parcheze în acel spațiu. E cel mai <b>făcubil</b> lucru posibil.',
     ],
     etymology: 'prin sudare (a face + abil)',
   },
@@ -184,7 +184,7 @@ const wordList = [
     word: 'Chemabil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva/cineva care poate fi chemat.',
-    examples: ['Nu știu pe cine să chem la fotbal… ce zici de Ștefan, joacă bine? -Da, joacă ok, e chemabil.'],
+    examples: ['Nu știu pe cine să chem la fotbal… ce zici de Ștefan, joacă bine? -Da, joacă ok, e <b>chemabil</b>.'],
     etymology: 'prin sudare (a chema + abil)',
   },
   {
@@ -193,8 +193,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi pus.',
     examples: [
-      'Am cumpărat o nouă canapea și am fost foarte bucuros să constat că este pusabilă în orice cameră din casă, datorită dimensiunilor și designului său versatile.',
-      'Ce zici de melodia asta? Crezi că e pusabilă ca și muzică de fundal diseară?',
+      'Am cumpărat o nouă canapea și am fost foarte bucuros să constat că este <b>pusabilă</b> în orice cameră din casă, datorită dimensiunilor și designului său versatile.',
+      'Ce zici de melodia asta? Crezi că e <b>pusabilă</b> ca și muzică de fundal diseară?',
     ],
     etymology: 'prin sudare (a pune + abil)',
   },
@@ -204,8 +204,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Perfectul compus / participiul verbului “a diverge”.',
     examples: [
-      'Am încercat să aplicăm planul original, dar proiectul a divers de la direcția inițială.',
-      'Când am început să discutăm despre politică, discuția a divers într-un amalgam de schimb de idei.',
+      'Am încercat să aplicăm planul original, dar proiectul a <b>divers</b> de la direcția inițială.',
+      'Când am început să discutăm despre politică, discuția a <b>divers</b> într-un amalgam de schimb de idei.',
     ],
     etymology: 'prin conjugare (diverge)',
   },
@@ -214,7 +214,7 @@ const wordList = [
     word: 'Luni, Marți, Miercuri, Joi, Vineri, Sâmbătă, Duminică',
     partOfSpeech: 'substantiv comun',
     definition: 'Numele zilelor săptămânii, dar cu literă mare, fiindcă sunt nume.',
-    examples: ['Salut Andrei, Marți spuneați că mergeți la munte? -Salut, cred că până la urmă vom merge doar Miercuri.'],
+    examples: ['Salut Andrei, <b>Marți</b> spuneați că mergeți la munte? -Salut, cred că până la urmă vom merge doar <b>Miercuri</b>.'],
     etymology: 'numele zilelor săptămânii, dar cu literă mare',
   },
   {
@@ -222,7 +222,7 @@ const wordList = [
     word: 'Ianuarie, Februarie, Martie, Aprilie, Mai, Iunie, Iulie, August, Septembrie, Octombrie, Noiembrie, Decembrie',
     partOfSpeech: 'substantiv comun',
     definition: 'Numele lunilor anului, dar cu literă mare, fiindcă sunt nume.',
-    examples: ['Salut Andrei, în Martie e ziua ta? -Salut! Nu, ziua mea e în Aprilie.'],
+    examples: ['Salut Andrei, în <b>Martie</b> e ziua ta? -Salut! Nu, ziua mea e în <b>Aprilie</b>.'],
     etymology: 'numele lunilor anului, dar cu literă mare',
   },
   {
@@ -230,7 +230,7 @@ const wordList = [
     word: 'Îndoibil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi îndoit (cu ușurință).',
-    examples: ['Se vede că acest telefon e făcut din aluminiu, e mult mai îndoibil decât varianta din oțel.'],
+    examples: ['Se vede că acest telefon e făcut din aluminiu, e mult mai <b>îndoibil</b> decât varianta din oțel.'],
     etymology: 'prin sudare (a îndoi + abil)',
   },
   {
@@ -238,7 +238,9 @@ const wordList = [
     word: 'Completate',
     partOfSpeech: 'substantiv comun',
     definition: 'Generalizare/substantivare a adjectivului “complet”, cu scopul de face referire la diferite grade ale acestuia.',
-    examples: ['Din cele 7 sectoare de autostradă, doar 2 au fost finalizate până acum, restul fiind în diferite grade de completate.'],
+    examples: [
+      'Din cele 7 sectoare de autostradă, doar 2 au fost finalizate până acum, restul fiind în diferite grade de <b>completate</b>.',
+    ],
     etymology: 'prin abstractizare/generalizare (complet + ate)',
   },
   {
@@ -246,7 +248,7 @@ const wordList = [
     word: 'Frăsor',
     partOfSpeech: 'substantiv comun',
     definition: 'Termen neutru de gen care se referă la un frate sau o soră.',
-    examples: ['Am în total 5 frăsori: 2 frați și 3 surori.', 'Ea se înțelege foarte bine cu frăsorii ei.'],
+    examples: ['Am în total 5 <b>frăsori</b>: 2 frați și 3 surori.', 'Ea se înțelege foarte bine cu <b>frăsorii</b> ei.'],
     etymology: 'Amestec între "frate" și "soră".',
   },
   {
@@ -254,7 +256,10 @@ const wordList = [
     word: 'Fil',
     partOfSpeech: 'substantiv comun',
     definition: 'Termen neutru de gen care se referă la un fiu sau o fiică.',
-    examples: ['Am doi fili: un fiu și o fiică.', 'Weekendul acesta voi avea grijă de 3 copii dar doar 2 dintre ei îmi sunt fili.'],
+    examples: [
+      'Am doi <b>fili</b>: un fiu și o fiică.',
+      'Weekendul acesta voi avea grijă de 3 copii dar doar 2 dintre ei îmi sunt <b>fili</b>.',
+    ],
     etymology: 'inventare',
   },
   {
@@ -262,7 +267,10 @@ const wordList = [
     word: 'Adulție',
     partOfSpeech: 'substantiv comun',
     definition: 'Partea din viața unui om în care este adult.',
-    examples: ['Oamenii au de obicei mai mult timp la bătrânețe decât la adulție.', 'După copilărie și adolescență, urmează adulția.'],
+    examples: [
+      'Oamenii au de obicei mai mult timp la bătrânețe decât la <b>adulție</b>.',
+      'După copilărie și adolescență, urmează <b>adulția</b>.',
+    ],
     etymology: 'prin sufixarea cuvântului “adult”',
   },
   {
@@ -270,7 +278,7 @@ const wordList = [
     word: 'Ai doia',
     partOfSpeech: 'numeral',
     definition: 'Numeral ordinal plural pentru numărul 2. Pluralul numeralului ordinal “al doilea”.',
-    examples: ['Ei sunt primii, noi suntem ai doia.'],
+    examples: ['Ei sunt primii, noi suntem <b>ai doia</b>.'],
     etymology: 'prin pluralizarea numeralului ordinal “al doilea”',
   },
   {
@@ -278,7 +286,7 @@ const wordList = [
     word: 'Ai treia',
     partOfSpeech: 'numeral',
     definition: 'Numeral ordinal plural pentru numărul 3. Pluralul numeralului ordinal “al treilea”.',
-    examples: ['Ei sunt primii, ceilalti sunt ai doia, noi n-am reușit sa ajungem decât ai treia.'],
+    examples: ['Ei sunt primii, ceilalti sunt <b>ai doia</b>, noi n-am reușit sa ajungem decât <b>ai treia</b>.'],
     etymology: 'prin pluralizarea numeralului ordinal “al treilea”',
   },
   {
@@ -302,7 +310,7 @@ const wordList = [
     word: 'Mânesc/Mânească',
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la mână/mâini.',
-    examples: ['Și-a luxat mâna alaltăieri, și acum nu poate face niciun fel de efort mânesc.'],
+    examples: ['Și-a luxat mâna alaltăieri, și acum nu poate face niciun fel de efort <b>mânesc</b>.'],
     etymology: 'prin sufixarea substantivului “mână”',
   },
   {
@@ -310,7 +318,7 @@ const wordList = [
     word: 'Picioresc/Piciorească',
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la picior/picioare.',
-    examples: ['Și-a luxat piciorul alaltăieri, și acum nu poate face niciun fel de efort picioresc.'],
+    examples: ['Și-a luxat piciorul alaltăieri, și acum nu poate face niciun fel de efort <b>picioresc</b>.'],
     etymology: 'prin sufixarea substantivului “picior”',
   },
   {
@@ -319,8 +327,8 @@ const wordList = [
     partOfSpeech: 'pronume',
     definition: 'Pronume posesivo-posesiv.',
     examples: [
-      'Jantele mașinii tale sunt mai curate decât alei mele.',
-      'De Crăciun, Ionuț i-a cumpărat o curea tatălui său, iar eu i-am luat o cămașă alui meu.',
+      'Jantele mașinii tale sunt mai curate decât <b>alei</b> mele.',
+      'De Crăciun, Ionuț i-a cumpărat o curea tatălui său, iar eu i-am luat o cămașă <b>alui</b> meu.',
     ],
     etymology: 'prin extinderea pronumelor posesive “al (meu)” / “a (mea)”',
   },
@@ -330,8 +338,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi dat.',
     examples: [
-      'Eu returnez produsele într-o stare cât mai bună, ca să fie dabile la următorii clienți.',
-      'Am decis să donez cărțile mele vechi către biblioteca locală, deoarece majoritatea sunt deja citite, deci chiar dabile.',
+      'Eu returnez produsele într-o stare cât mai bună, ca să fie <b>dabile</b> la următorii clienți.',
+      'Am decis să donez cărțile mele vechi către biblioteca locală, deoarece majoritatea sunt deja citite, deci chiar <b>dabile</b>.',
     ],
     etymology: 'prin sudare (a da + abil)',
   },
@@ -342,8 +350,8 @@ const wordList = [
     definition:
       'Informație sau sursă de informație care are o încredere și recunoaștere largă, fiind adesea considerată definitivă sau concludentă.',
     examples: [
-      'Publicația aceasta este considerată o sursă autoritativă în domeniul tehnologiei.',
-      'Informația autoritativă prezentată în raportul oficial a clarificat multe dintre îndoielile existente.',
+      'Publicația aceasta este considerată o sursă <b>autoritativă</b> în domeniul tehnologiei.',
+      'Informația <b>autoritativă</b> prezentată în raportul oficial a clarificat multe dintre îndoielile existente.',
     ],
     etymology: 'calchiere. de la termenul englez "authoritative" prin adaptare fonetică și morfologică',
   },
@@ -354,8 +362,8 @@ const wordList = [
     definition:
       'Specific sau restrâns la o singură planetă. Caracteristică a unei civilizații de a exista și opera exclusiv pe un singur corp ceresc.',
     examples: [
-      'În scenarii viitoare în care Terra nu mai este locuibilă, conceptul de civilizație monoplanetară ar putea fi privită retroactiv ca o fază inițială în evoluția umanității.',
-      'Deși tehnologic avansați, umanitatea este încă o civilizație monoplanetară, dependentă de resursele Terrei.',
+      'În scenarii viitoare în care Terra nu mai este locuibilă, conceptul de civilizație <b>monoplanetară</b> ar putea fi privită retroactiv ca o fază inițială în evoluția umanității.',
+      'Deși tehnologic avansați, umanitatea este încă o civilizație <b>monoplanetară</b>, dependentă de resursele Terrei.',
     ],
     etymology: 'Combinarea termenilor "mono" (singur, unic) și "planetar"',
   },
@@ -366,8 +374,8 @@ const wordList = [
     definition:
       'Entitate holistică constituită din totalitatea vietăților care înglobează toate formele de viață într-un scop unic și comun.',
     examples: [
-      'Studiind Viața în sensul său holistic, putem descoperi cum diferite specii interacționează și contribuie la un scop comun al existenței.',
-      'Abordarea filosofică modernă a Vieții ca un tot unitar pune accent pe cum contribuțiile individuale, atât umane, cât și ale altor forme de viață, se împletesc pentru a crea un ansamblu complex cu scop unic.',
+      'Studiind <b>Viața</b> în sensul său holistic, putem descoperi cum diferite specii interacționează și contribuie la un scop comun al existenței.',
+      'Abordarea filosofică modernă a <b>Vieții</b> ca un tot unitar pune accent pe cum contribuțiile individuale, atât umane, cât și ale altor forme de viață, se împletesc pentru a crea un ansamblu complex cu scop unic.',
     ],
     etymology: 'Extindere a cuvântului "viață" referitor la individ pentru a include o dimensiune holistică',
   },
