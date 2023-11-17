@@ -91,6 +91,8 @@ label {
 @media (max-width: 768px) {
   .word {
     flex-direction: column;
+    border-left-width: 0;
+    border-bottom: 6px solid #102e5e;
   }
 
   .word-header {
@@ -111,5 +113,9 @@ label {
     top: 285px;
     font-size: 12px;
     border-top-left-radius: 16px;
+  }
+
+  ul {
+    padding-left: 24px;
   }
 }

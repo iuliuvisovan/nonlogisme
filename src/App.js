@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <img src={`/images/nonlogism.png`} alt="Nonlogism" />
+        <img src={`/images/nonlogism.jpeg`} alt="Nonlogism" />
         <h1>Dicționar de Nonlogisme</h1>
       </div>
       <h2>

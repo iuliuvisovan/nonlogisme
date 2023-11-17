@@ -14,9 +14,9 @@ export default function Word({ word }) {
   const color = partOfSpeechColors[word.partOfSpeech];
 
   return (
-    <div className="word" style={{ borderLeftColor: color }}>
+    <div className="word" style={{ borderColor: color }}>
       <div className="word-header">
-        <img className="word-image" src={`/images/${word.slug}.png`} alt={word.word} />
+        <img className="word-image" src={`/images/${word.slug}.jpeg`} alt={word.word} />
         <div className="word-header-info">
           <h2 className="word-title">{word.word}</h2>
           <span className="word-part-of-speech" style={{ backgroundColor: color }}>
