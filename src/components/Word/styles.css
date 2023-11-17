@@ -47,11 +47,14 @@ p {
   gap: 16px;
 }
 
+label {
+  display: block;
+}
+
 .label {
   font-weight: 700;
-  color: #000; /* Stilizare etichete */
+  color: #4f5155;
   margin-bottom: 5px;
-  display: block;
 }
 
 .word-examples {
