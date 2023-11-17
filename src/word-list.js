@@ -21,18 +21,6 @@ const wordList = [
     etymology: 'Combinarea cuvintelor "morfologie" și "sinteză".',
   },
   {
-    slug: 'fiut',
-    word: 'Fiut',
-    partOfSpeech: 'substantiv',
-    partOfSpeechType: 'comun',
-    definition: 'Formă de participiu a verbului “a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
-    examples: [
-      '<b>Fiutul</b> de student la medicină implică multe ore de studiu și practică.',
-      '<b>Fiutul</b> de președinte este o responsabilitate mare.',
-    ],
-    etymology: 'morfosinteză',
-  },
-  {
     slug: 'acunci',
     word: 'Acunci',
     partOfSpeech: 'adverb',
@@ -43,6 +31,18 @@ const wordList = [
       'M-a întrebat Adrian miercurea trecută dacă vreau să vin la fotbal dar am refuzat, deoarece eu tocmai jucasem <b>acunci</b> 2 zile.',
     ],
     etymology: 'prin fuziune “acum” + “atunci”',
+  },
+  {
+    slug: 'fiut',
+    word: 'Fiut',
+    partOfSpeech: 'substantiv',
+    partOfSpeechType: 'comun',
+    definition: 'Formă de participiu a verbului “a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
+    examples: [
+      '<b>Fiutul</b> de student la medicină implică multe ore de studiu și practică.',
+      '<b>Fiutul</b> de președinte este o responsabilitate mare.',
+    ],
+    etymology: 'morfosinteză',
   },
   {
     slug: 'hat',
