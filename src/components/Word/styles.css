@@ -30,7 +30,7 @@ p {
 }
 
 .word-image {
-  width: 100px; /* Adjusted for better space efficiency */
+  width: 150px;
   margin-right: 20px;
   border-radius: 8px;
 }
