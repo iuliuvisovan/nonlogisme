@@ -16,7 +16,10 @@ export default function Word({ word }) {
   return (
     <div className="word" style={{ borderColor: color }}>
       <div className="word-header">
-        <img className="word-image" src={`/images/${word.slug}.jpeg`} alt={word.word} />
+        <div className="img-wrapper">
+          <img className="word-image" src={`/images/${word.slug}.jpeg`} alt={word.word} />
+          <div className="gradient"></div>
+        </div>
         <div className="word-header-info">
           <h2 className="word-title">{word.word}</h2>
           <span className="word-part-of-speech" style={{ backgroundColor: color }}>

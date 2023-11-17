@@ -107,15 +107,42 @@ label {
 
   .word-title {
     font-size: 1.5rem;
+    margin-top: -48px;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 10;
+  }
+
+  .img-wrapper {
+    position: relative;
+  }
+
+  .gradient {
+    position: absolute;
+    left: -24px;
+    bottom: -24px;
+    width: calc(100% + 24px * 2);
+    z-index: 1;
+    background: linear-gradient(0deg, #fff, transparent);
+    height: 150px;
   }
 
   .word-part-of-speech {
-    top: 285px;
+    top: 12px;
     font-size: 12px;
     border-top-left-radius: 16px;
   }
 
   ul {
     padding-left: 24px;
+  }
+
+  .word-image {
+    width: calc(100% + 24px * 2);
+    margin: -24px;
+  }
+
+  .word-header-info {
+    z-index: 1;
   }
 }

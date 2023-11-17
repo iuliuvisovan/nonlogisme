@@ -49,7 +49,7 @@ const wordList = [
     word: 'Hăt',
     partOfSpeech: 'adverb',
     partOfSpeechType: 'de loc',
-    definition: 'Oriunde dar nu aici. Generalizarea regionalismului “hăt”, echivalentul cuvântului englezesc “away”.',
+    definition: 'Oriunde, dar nu aici. Generalizarea regionalismului “hăt” și echivalentul cuvântului englezesc “away”.',
     examples: ['Du-te <b>hăt</b>! (“Go away!”)'],
     etymology: 'generalizare intralinguală',
   },
