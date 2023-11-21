@@ -36,9 +36,10 @@ p {
 }
 
 .word-title {
-  color: #102e5e; /* Albastru mai profund */
+  color: #102e5e;
   font-size: 1.8rem;
   margin: 0;
+  width: calc(100% - 130px);
 }
 
 .word-content {

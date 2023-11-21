@@ -199,7 +199,11 @@ const wordList = [
     word: 'Chemabil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva/cineva care poate fi chemat.',
-    examples: ['Nu știu pe cine să chem la fotbal… ce zici de Ștefan, joacă bine? -Da, joacă ok, e <b>chemabil</b>.'],
+    examples: [
+      'În echipa noastră, avem nevoie de oameni <b>chemabili</b> în orice moment pentru situații de urgență.',
+      'Când organizăm petreceri de ultim moment, Luca este întotdeauna <b>chemabil</b>. El aduce mereu atmosfera potrivită.',
+      '-Nu știu pe cine să chem la fotbal… ce zici de Ștefan, joacă bine? -Da, joacă ok, e <b>chemabil</b>.',
+    ],
     etymology: 'prin sudare (a chema + abil)',
   },
   {
