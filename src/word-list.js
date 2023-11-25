@@ -461,8 +461,8 @@ const wordList = [
     partOfSpeechType: 'comun',
     definition: 'Termen neutru de gen care se referă la un fiu sau o fiică.',
     examples: [
-      'Am doi <b>fili</b>: un fiu și o fiică.',
-      'Weekendul acesta voi avea grijă de 3 copii dar doar 2 dintre ei îmi sunt <b>fili</b>.',
+      'Am doi <b>fili</b>: Marian și Diana.',
+      'Weekendul acesta voi avea grijă de 3 copii dar doar 2 dintre ei sunt <b>filii</b> mei.',
     ],
     etymology: 'inventare',
   },
