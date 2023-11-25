@@ -35,11 +35,37 @@ p {
   border-radius: 8px;
 }
 
+.small-word-image {
+  width: 20px;
+  margin-right: 4px;
+  border-radius: 3px;
+  /* filter: grayscale(100%); */
+}
+
 .word-title {
-  color: #102e5e;
   font-size: 1.8rem;
   margin: 0;
   width: calc(100% - 130px);
+  color: hsl(217 10% 70% / 1);
+
+  .word-name {
+    &.active {
+      color: #102e5e;
+    }
+
+    &:not(.active) {
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+        color: hsl(217 25% 33% / 1);
+      }
+    }
+  }
+}
+
+.word-definition {
+  font-size: 18px;
 }
 
 .word-content {

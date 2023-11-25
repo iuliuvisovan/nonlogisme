@@ -1,5 +1,5 @@
 import React from 'react';
-import Dictionary from './components/Dictionary';
+import Word from './components/Word';
 import wordList from './word-list';
 import './App.css';
 
@@ -18,7 +18,13 @@ function App() {
         gol/lacună lexicală), iar nevoia acestora se simte în realitatea lingvistică.
       </span>
       <h2 style={{ marginTop: 40 }}>Lista nonlogismelor actuale</h2>
-      <Dictionary words={wordList} />
+      <div>
+        {wordList
+          .filter((x) => !x.groupId)
+          .map((word, index) => (
+            <Word key={index} word={word} sisterWords={wordList.filter((x) => x.groupId && x.groupId === word.slug)} />
+          ))}
+      </div>
     </div>
   );
 }
