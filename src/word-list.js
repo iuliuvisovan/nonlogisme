@@ -1,7 +1,7 @@
 const wordList = [
   {
     slug: 'nonlogism',
-    word: 'Nonlogism',
+    word: 'nonlogism',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Cuvânt pentru un concept care nu există într-o limbă, dar care ar trebui să existe conform realității lingvistice.',
@@ -13,7 +13,7 @@ const wordList = [
   },
   {
     slug: 'morfosinteza',
-    word: 'Morfosinteză',
+    word: 'morfosinteză',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Proces de creare a cuvintelor noi într-o limbă prin combinarea și manipularea formelor morfologice existente.',
@@ -22,7 +22,7 @@ const wordList = [
   },
   {
     slug: 'acunci',
-    word: 'Acunci',
+    word: 'acunci',
     partOfSpeech: 'adverb',
     partOfSpeechType: 'de timp',
     definition: 'Adverbul “acum”, doar că relativ la “atunci”.',
@@ -34,7 +34,7 @@ const wordList = [
   },
   {
     slug: 'fiut',
-    word: 'Fiut',
+    word: 'fiut',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Formă de participiu a verbului “a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
@@ -46,7 +46,7 @@ const wordList = [
   },
   {
     slug: 'hat',
-    word: 'Hăt',
+    word: 'hăt',
     partOfSpeech: 'adverb',
     partOfSpeechType: 'de loc',
     definition: 'Oriunde, dar nu aici. Generalizarea regionalismului “hăt” și echivalentul cuvântului englezesc “away”.',
@@ -55,7 +55,7 @@ const wordList = [
   },
   {
     slug: 'ecoic',
-    word: 'Ecoic(ă)',
+    word: 'ecoic(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Cu ecou (despre o cameră, încăpere, container, etc.)',
     examples: ['Camera aceasta este prea <b>ecoică</b> pentru a efectua înregistrări de calitate.'],
@@ -63,18 +63,18 @@ const wordList = [
   },
   {
     slug: 'salot',
-    word: 'Șalot(ă)',
+    word: 'șalot(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Care se caracterizează prin adâncime mică sau lipsa adâncimii. Antonimul cuvântului “adânc”.',
     examples: [
       'Această fântână este <b>șalotă</b>.',
       'Această piscină are o zonă foarte adâncă și o zonă mai <b>șalotă</b>, unde copiii pot înota în siguranță.',
     ],
-    etymology: 'inventare',
+    etymology: 'calchiere. de la termenul englez "shallow" prin adaptare fonetică și morfologică.',
   },
   {
     slug: 'suez',
-    word: 'Suez(ă)',
+    word: 'suez(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Originar din/aparținând statului SUA.',
     examples: ['La fel cum un om din Franța este francez, un om din SUA este <b>suez</b>.', 'Acest om este <b>suez</b>, din SUA.'],
@@ -82,7 +82,7 @@ const wordList = [
   },
   {
     slug: 'verinat',
-    word: 'Verinat(ă)',
+    word: 'verinat(ă)',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Soțul sau soția unui verișor. Verișor + cumnat.',
@@ -94,7 +94,7 @@ const wordList = [
   },
   {
     slug: 'milant',
-    word: 'Milant(ă)',
+    word: 'milant(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce-ți creează sentimentul de milă.',
     examples: [
@@ -104,7 +104,7 @@ const wordList = [
   },
   {
     slug: 'patrisc',
-    word: 'Pătrisc',
+    word: 'pătrisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă pătratică. Analog cu discul pentru cerc.',
@@ -113,7 +113,7 @@ const wordList = [
   },
   {
     slug: 'trisc',
-    word: 'Trisc',
+    word: 'trisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă triunghică. Analog cu discul pentru cerc.',
@@ -122,7 +122,7 @@ const wordList = [
   },
   {
     slug: 'drisc',
-    word: 'Drisc',
+    word: 'drisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă dreptunghiulară. Analog cu discul pentru cerc.',
@@ -131,7 +131,7 @@ const wordList = [
   },
   {
     slug: 'rombisc',
-    word: 'Rombisc',
+    word: 'rombisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă rombică. Analog cu discul pentru cerc.',
@@ -140,7 +140,7 @@ const wordList = [
   },
   {
     slug: 'trapisc',
-    word: 'Trapisc',
+    word: 'trapisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă trapezoidală. Analog cu discul pentru cerc.',
@@ -149,7 +149,7 @@ const wordList = [
   },
   {
     slug: 'pentisc',
-    word: 'Pentisc',
+    word: 'pentisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă pentagonală. Analog cu discul pentru cerc.',
@@ -158,7 +158,7 @@ const wordList = [
   },
   {
     slug: 'hexisc',
-    word: 'Hexisc',
+    word: 'hexisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă hexagonală. Analog cu discul pentru cerc.',
@@ -167,7 +167,7 @@ const wordList = [
   },
   {
     slug: 'heptisc',
-    word: 'Heptisc',
+    word: 'heptisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă heptagonală. Analog cu discul pentru cerc.',
@@ -176,16 +176,16 @@ const wordList = [
   },
   {
     slug: 'octisc',
-    word: 'Octisc',
+    word: 'octisc',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Suprafața poligonală de formă octogonală. Analog cu discul pentru cerc.',
     examples: [],
-    etymology: 'octogon (heptagon + isc)',
+    etymology: 'morfosinteză (octogon + isc)',
   },
   {
     slug: 'facubil',
-    word: 'Făcubil(ă)',
+    word: 'făcubil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi făcut.',
     examples: [
@@ -196,7 +196,7 @@ const wordList = [
   },
   {
     slug: 'chemabil',
-    word: 'Chemabil(ă)',
+    word: 'chemabil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva/cineva care poate fi chemat.',
     examples: [
@@ -208,18 +208,18 @@ const wordList = [
   },
   {
     slug: 'pusabil',
-    word: 'Pusabil(ă)',
+    word: 'pusabil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi pus.',
     examples: [
-      'Am cumpărat o nouă canapea și am fost foarte bucuros să constat că este <b>pusabilă</b> în orice cameră din casă, datorită dimensiunilor și designului său versatile.',
+      'Am cumpărat o nouă canapea și am fost foarte bucuros să constat că este <b>pusabilă</b> în orice cameră din casă, datorită dimensiunilor și designului său versatil.',
       'Ce zici de melodia asta? Crezi că e <b>pusabilă</b> ca și muzică de fundal diseară?',
     ],
     etymology: 'prin sudare (a pune + abil)',
   },
   {
     slug: 'divers',
-    word: 'Divers(ă)',
+    word: 'divers(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Perfectul compus / participiul verbului “a diverge”.',
     examples: [
@@ -248,7 +248,7 @@ const wordList = [
   },
   {
     slug: 'indoibil',
-    word: 'Îndoibil(ă)',
+    word: 'îndoibil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi îndoit (cu ușurință).',
     examples: ['Se vede că acest telefon e făcut din aluminiu, e mult mai <b>îndoibil</b> decât varianta din oțel.'],
@@ -256,7 +256,7 @@ const wordList = [
   },
   {
     slug: 'completate',
-    word: 'Completate',
+    word: 'completate',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Generalizare/substantivare a adjectivului “complet”, cu scopul de face referire la diferite grade ale acestuia.',
@@ -267,7 +267,7 @@ const wordList = [
   },
   {
     slug: 'frasor',
-    word: 'Frăsor',
+    word: 'frăsor',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Termen neutru de gen care se referă la un frate sau o soră.',
@@ -276,7 +276,7 @@ const wordList = [
   },
   {
     slug: 'fil',
-    word: 'Fil',
+    word: 'fil',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Termen neutru de gen care se referă la un fiu sau o fiică.',
@@ -288,7 +288,7 @@ const wordList = [
   },
   {
     slug: 'adultie',
-    word: 'Adulție',
+    word: 'adulție',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Partea din viața unui om în care este adult.',
@@ -300,7 +300,7 @@ const wordList = [
   },
   {
     slug: 'ai-doia',
-    word: 'Ai doia',
+    word: 'ai doia',
     partOfSpeech: 'numeral',
     definition: 'Numeral ordinal plural pentru numărul 2. Pluralul numeralului ordinal “al doilea”.',
     examples: ['Ei sunt primii, noi suntem <b>ai doia</b>.'],
@@ -308,7 +308,7 @@ const wordList = [
   },
   {
     slug: 'ai-treia',
-    word: 'Ai treia',
+    word: 'ai treia',
     partOfSpeech: 'numeral',
     definition: 'Numeral ordinal plural pentru numărul 3. Pluralul numeralului ordinal “al treilea”.',
     examples: ['Ei sunt primii, ceilalti sunt <b>ai doia</b>, noi n-am reușit sa ajungem decât <b>ai treia</b>.'],
@@ -316,7 +316,7 @@ const wordList = [
   },
   {
     slug: 'ai-patruia',
-    word: 'Ai patruia',
+    word: 'ai patruia',
     partOfSpeech: 'numeral',
     definition: 'Numeral ordinal plural pentru numărul 4. Pluralul numeralului ordinal “al patrulea”.',
     examples: [],
@@ -324,31 +324,31 @@ const wordList = [
   },
   {
     slug: 'ai-cincia',
-    word: 'Ai cincia',
+    word: 'ai cincia',
     partOfSpeech: 'numeral',
     definition: 'Numeral ordinal plural pentru numărul 5. Pluralul numeralului ordinal “al cincilea”.',
     examples: [],
     etymology: 'prin pluralizarea numeralului ordinal “al cincilea”',
   },
   {
-    slug: 'manesc-maneasca',
-    word: 'Mânesc/Mânească',
+    slug: 'manal',
+    word: 'mânal(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la mână/mâini.',
-    examples: ['Și-a luxat mâna alaltăieri, și acum nu poate face niciun fel de efort <b>mânesc</b>.'],
+    examples: ['Și-a luxat mâna alaltăieri, și acum nu poate face niciun fel de efort <b>mânal</b>.'],
     etymology: 'prin sufixarea substantivului “mână”',
   },
   {
-    slug: 'picioresc-picioreasca',
-    word: 'Picioresc/Piciorească',
+    slug: 'picioral',
+    word: 'picioral(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la picior/picioare.',
-    examples: ['Și-a luxat piciorul alaltăieri, și acum nu poate face niciun fel de efort <b>picioresc</b>.'],
+    examples: ['Și-a luxat piciorul alaltăieri, și acum nu poate face niciun fel de efort <b>picioral</b>.'],
     etymology: 'prin sufixarea substantivului “picior”',
   },
   {
     slug: 'alui-alei',
-    word: 'Alui/alei',
+    word: 'alui/alei',
     partOfSpeech: 'pronume',
     definition: 'Pronume posesivo-posesiv.',
     examples: [
@@ -359,7 +359,7 @@ const wordList = [
   },
   {
     slug: 'dabil',
-    word: 'Dabil(ă)',
+    word: 'dabil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi dat.',
     examples: [
@@ -370,7 +370,7 @@ const wordList = [
   },
   {
     slug: 'autoritativa',
-    word: 'Autoritativ(ă)',
+    word: 'autoritativ(ă)',
     partOfSpeech: 'adjectiv',
     definition:
       'Informație sau sursă de informație care are o încredere și recunoaștere largă, fiind adesea considerată definitivă sau concludentă.',
@@ -382,26 +382,37 @@ const wordList = [
   },
   {
     slug: 'monoplanetar',
-    word: 'Monoplanetar(ă)',
+    word: 'monoplanetar(ă)',
     partOfSpeech: 'adjectiv',
-    definition:
-      'Specific sau restrâns la o singură planetă. Caracteristică a unei civilizații de a exista și opera exclusiv pe un singur corp ceresc.',
+    definition: 'Care implică sau este caracteristic unei singure planete.',
     examples: [
-      'În scenarii viitoare în care Terra nu mai este locuibilă, conceptul de civilizație <b>monoplanetară</b> ar putea fi privită retroactiv ca o fază inițială în evoluția umanității.',
-      'Deși tehnologic avansați, umanitatea este încă o civilizație <b>monoplanetară</b>, dependentă de resursele Terrei.',
+      'Deși tehnologic avansată, umanitatea este încă o civilizație <b>monoplanetară</b>, dependentă de resursele Terrei.',
+      'În diversitatea galaxiei noastre, întâlnim atât sisteme solare atât cu multiple planete (precum Sistemul Solar), cât și <b>monoplanetare</b>, care sunt formate dintr-o singură planetă ce orbitează o stea.',
     ],
-    etymology: 'Combinarea termenilor "mono" (singur, unic) și "planetar"',
+    etymology: 'Combinarea termenilor "mono" (singur, unic) și "planetar" (referitor la planetă)',
+  },
+  {
+    slug: 'multiplanetar',
+    word: 'multiplanetar(ă)',
+    partOfSpeech: 'adjectiv',
+    definition: 'Care implică sau este caracteristic mai multor planete.',
+    examples: [
+      'Cu tehnologia sa avansată, civilizația umană visează să devină la un moment dat <b>multiplanetară</b>, extinzându-se pe mai multe corpuri cerești.',
+      'Sistemele solare <b>multiplanetare</b>, cu mai multe planete orbitând o singură stea, sunt comune în galaxia noastră.',
+      'Tranziția de la o civilizație <b>monoplanetară</b> la una <b>multiplanetară</b> ar reprezenta un salt major în evoluția umanității.',
+    ],
+    etymology: 'Combinarea termenilor "multi" (mulți, numeroși) și "planetar" (referitor la planetă)',
   },
   {
     slug: 'viata',
     word: 'Viață',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
-    definition:
-      'Entitate holistică constituită din totalitatea vietăților care înglobează toate formele de viață într-un scop unic și comun.',
+    definition: 'Entitate (organism) imaterială care înglobează toate formele de viață într-un scop unic și comun.',
     examples: [
+      'Spre deosebire de conceptul tradițional de viață atribuit fiecărui individ, <b>Viața</b> (cu V mare) reprezintă sinergia vastă dintre toate entitățile vii, formând o entitate unitară cu o misiune comună.',
+      'Prin contrast cu viața asignată unui individ, <b>Viața</b> reprezintă o rețea complexă ce unește toate formele de existență care au viață, reflectând un scop comun și interconectat.',
       'Studiind <b>Viața</b> în sensul său holistic, putem descoperi cum diferite specii interacționează și contribuie la un scop comun al existenței.',
-      'Abordarea filosofică modernă a <b>Vieții</b> ca un tot unitar pune accent pe cum contribuțiile individuale, atât umane, cât și ale altor forme de viață, se împletesc pentru a crea un ansamblu complex cu scop unic.',
     ],
     etymology: 'Extindere a cuvântului "viață" referitor la individ pentru a include o dimensiune holistică',
   },
