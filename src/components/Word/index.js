@@ -41,9 +41,9 @@ export default function Word({ word: mainWord, sisterWords }) {
             ))}
           </h2>
           <span className="word-part-of-speech" style={{ backgroundColor: color }}>
-            {mainWord.partOfSpeech}
+            {selectedWord.partOfSpeech}
           </span>
-          <span className="word-definition">{mainWord.definition}</span>
+          <span className="word-definition">{selectedWord.definition}</span>
         </div>
       </div>
 
