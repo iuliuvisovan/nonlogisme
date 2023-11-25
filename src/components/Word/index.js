@@ -23,7 +23,11 @@ export default function Word({ word: mainWord, sisterWords }) {
     <div className="word" style={{ borderColor: color }}>
       <div className="word-header">
         <div className="img-wrapper">
-          <img className="word-image" src={`/images/${selectedWord.slug}.jpeg`} alt={mainWord.word} />
+          <img
+            className="word-image"
+            src={`/images/${mainWord.useAsGroupImage ? mainWord.slug : selectedWord.slug}.jpeg`}
+            alt={mainWord.word}
+          />
           <div className="gradient"></div>
         </div>
         <div className="word-header-info">
