@@ -462,8 +462,8 @@ const wordList = [
     partOfSpeechType: 'comun',
     definition: 'Partea din viața unui om în care este adult.',
     examples: [
-      'Oamenii au de obicei mai mult timp la bătrânețe decât la <b>adulție</b>.',
       'După copilărie și adolescență, urmează <b>adulția</b>.',
+      'Oamenii au de obicei mai mult timp la bătrânețe decât la <b>adulție</b>.',
     ],
     etymology: 'prin sufixarea cuvântului “adult”',
   },
