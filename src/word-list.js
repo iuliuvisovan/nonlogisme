@@ -229,7 +229,7 @@ const wordList = [
     slug: 'divers',
     word: 'divers(ă)',
     partOfSpeech: 'adjectiv',
-    definition: 'Perfectul compus / participiul verbului “a diverge”.',
+    definition: 'Participiul verbului „a diverge”.',
     examples: [
       'Am încercat să aplicăm planul original, dar proiectul a <b>divers</b> de la direcția inițială.',
       'Când am început să discutăm despre politică, discuția a <b>divers</b> într-un amalgam de schimb de idei.',
