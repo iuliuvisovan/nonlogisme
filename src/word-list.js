@@ -25,21 +25,21 @@ const wordList = [
     word: 'acunci',
     partOfSpeech: 'adverb',
     partOfSpeechType: 'de timp',
-    definition: 'Adverbul “acum”, doar că relativ la “atunci”.',
+    definition: 'Adverbul „acum”, doar că relativ la „atunci”.',
     examples: [
       'Era anul 2019, iar România celebra revoluția de <b>acunci</b> 30 ani.',
       'M-a întrebat Adrian miercurea trecută dacă vreau să vin la fotbal dar am refuzat, deoarece eu tocmai jucasem <b>acunci</b> 2 zile.',
     ],
-    etymology: 'prin fuziune “acum” + “atunci”',
+    etymology: 'prin fuziune „acum” + „atunci”',
   },
   {
     slug: 'fiut',
     word: 'fiut',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
-    definition: 'Formă de participiu a verbului “a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
+    definition: 'Formă de participiu a verbului „a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
     examples: [
-      '<b>Fiutul</b> de student la medicină implică multe ore de studiu și practică.',
+      'Mâncatul de mere este sănătos, iar <b>fiutul</b> de student la medicină implică multe ore de studiu și practică.',
       '<b>Fiutul</b> de președinte este o responsabilitate mare.',
     ],
     etymology: 'morfosinteză',
@@ -49,8 +49,8 @@ const wordList = [
     word: 'hăt',
     partOfSpeech: 'adverb',
     partOfSpeechType: 'de loc',
-    definition: 'Oriunde, dar nu aici. Generalizarea regionalismului “hăt” și echivalentul cuvântului englezesc “away”.',
-    examples: ['Du-te <b>hăt</b>! (“Go away!”)'],
+    definition: 'Oriunde, dar nu aici. Generalizarea regionalismului „hăt” și echivalentul cuvântului englezesc „away”.',
+    examples: ['Du-te <b>hăt</b>! („Go away!”)'],
     etymology: 'generalizare intralinguală',
   },
   {
@@ -65,7 +65,7 @@ const wordList = [
     slug: 'salot',
     word: 'șalot(ă)',
     partOfSpeech: 'adjectiv',
-    definition: 'Care se caracterizează prin adâncime mică sau lipsa adâncimii. Antonimul cuvântului “adânc”.',
+    definition: 'Care se caracterizează prin adâncime mică sau lipsa adâncimii. Antonimul cuvântului „adânc”.',
     examples: [
       'Această fântână este <b>șalotă</b>.',
       'Această piscină are o zonă foarte adâncă și o zonă mai <b>șalotă</b>, unde copiii pot înota în siguranță.',
@@ -465,7 +465,7 @@ const wordList = [
       'După copilărie și adolescență, urmează <b>adulția</b>.',
       'Oamenii au de obicei mai mult timp la bătrânețe decât la <b>adulție</b>.',
     ],
-    etymology: 'prin sufixarea cuvântului “adult”',
+    etymology: 'prin sufixarea cuvântului „adult”',
   },
   {
     slug: 'ai-doia',
@@ -582,8 +582,12 @@ const wordList = [
     word: 'mânal(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la mână/mâini.',
-    examples: ['Și-a luxat mâna alaltăieri, și acum nu poate face niciun fel de efort <b>mânal</b>.'],
-    etymology: 'prin sufixarea substantivului “mână”',
+    examples: [
+      'Medicul i-a recomandat să evite eforturile <b>mânale</b> timp de câteva săptămâni pentru a se vindeca complet',
+      'Datorită durerilor la încheieturi, nu a putut face niciun fel de efort <d>mânal</d> timp de mai multe zile.',
+      'Activitățile <b>mânale</b> au devenit dificile pentru ea după ce și-a luxat mâna.',
+    ],
+    etymology: 'prin sufixarea substantivului „mână”',
   },
   {
     slug: 'picioral',
@@ -591,7 +595,7 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la picior/picioare.',
     examples: ['Și-a luxat piciorul alaltăieri, și acum nu poate face niciun fel de efort <b>picioral</b>.'],
-    etymology: 'prin sufixarea substantivului “picior”',
+    etymology: 'prin sufixarea substantivului „picior”',
   },
   {
     slug: 'alui-alei',
@@ -602,7 +606,7 @@ const wordList = [
       'Jantele mașinii tale sunt mai curate decât <b>alei</b> mele.',
       'De Crăciun, Ionuț i-a cumpărat o curea tatălui său, iar eu i-am luat o cămașă <b>alui</b> meu.',
     ],
-    etymology: 'prin extinderea pronumelor posesive “al (meu)” / “a (mea)”',
+    etymology: 'prin extinderea pronumelor posesive „al (meu)” / „a (mea)”',
   },
   {
     slug: 'dabil',
