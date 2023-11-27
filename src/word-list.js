@@ -606,8 +606,8 @@ const wordList = [
     partOfSpeech: 'pronume',
     definition: 'Pronume posesivo-posesiv.',
     examples: [
-      'Jantele mașinii tale sunt mai curate decât <b>alei</b> mele.',
-      'De Crăciun, Ionuț i-a cumpărat o curea tatălui său, iar eu i-am luat o cămașă <b>alui</b> meu.',
+      'Să știi că jantele mașinii tale par mult mai curate decât <b>alei</b> mele.',
+      'De Crăciun, Ionuț i-a cumpărat un portofel tatălui său, iar eu i-am luat o cămașă <b>alui</b> meu.',
     ],
     etymology: 'prin extinderea pronumelor posesive „al (meu)” / „a (mea)”',
   },
@@ -617,8 +617,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi dat.',
     examples: [
-      'Eu returnez produsele într-o stare cât mai bună, ca să fie <b>dabile</b> la următorii clienți.',
       'Am decis să donez cărțile mele vechi către biblioteca locală, deoarece majoritatea sunt deja citite, deci chiar <b>dabile</b>.',
+      'Eu returnez produsele într-o stare cât mai bună, ca să fie <b>dabile</b> la următorii clienți.',
     ],
     etymology: 'prin sudare (a da + abil)',
   },
