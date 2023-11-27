@@ -583,7 +583,7 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la mână/mâini.',
     examples: [
-      'Medicul i-a recomandat să evite eforturile <b>mânale</b> timp de câteva săptămâni pentru a se vindeca complet',
+      'Medicul i-a recomandat să evite eforturile <b>mânale</b> timp de câteva săptămâni pentru a se vindeca complet.',
       'Datorită durerilor la încheieturi, nu a putut face niciun fel de efort <d>mânal</d> timp de mai multe zile.',
       'Activitățile <b>mânale</b> au devenit dificile pentru ea după ce și-a luxat mâna.',
     ],
@@ -595,7 +595,7 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la picior/picioare.',
     examples: [
-      'După accidentarea de la fotbal, medicul i-a recomandat să evite eforturile <b>piciorale</b> pentru o perioadă.',
+      'După accidentarea de la fotbal, ortopedul i-a recomandat să evite eforturile <b>piciorale</b> pentru o perioadă.',
       'Daniel nu a putut face niciun fel de activitate <b>piciorală</b> timp de o săptămână, din cauza durerii de la gleznă.',
     ],
     etymology: 'prin sufixarea substantivului „picior”',
