@@ -594,7 +594,10 @@ const wordList = [
     word: 'picioral(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Cu referire la picior/picioare.',
-    examples: ['Și-a luxat piciorul alaltăieri, și acum nu poate face niciun fel de efort <b>picioral</b>.'],
+    examples: [
+      'După accidentarea de la fotbal, medicul i-a recomandat să evite eforturile <b>piciorale</b> pentru o perioadă.',
+      'Daniel nu a putut face niciun fel de activitate <b>piciorală</b> timp de o săptămână, din cauza durerii de la gleznă.',
+    ],
     etymology: 'prin sufixarea substantivului „picior”',
   },
   {
