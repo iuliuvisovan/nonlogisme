@@ -197,8 +197,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi făcut.',
     examples: [
-      'Această lucrare este <b>făcubilă</b>.',
-      'Nu pot să înțeleg cum nu reușește să parcheze în acel spațiu. E cel mai <b>făcubil</b> lucru posibil.',
+      'Am analizat proiectul și-am ajuns la concluzia că, deși ambițios, este <b>făcubil</b> în timp care ne-a rămas.',
+      'Lumea se plânge de dificultatea acestui puzzle, dar în realitate este <b>făcubil</b> chiar și de copii.',
     ],
     etymology: 'prin sudare (a face + abil)',
   },
@@ -221,6 +221,7 @@ const wordList = [
     definition: 'Ceva ce poate fi pus.',
     examples: [
       'Am cumpărat o nouă canapea și am fost foarte bucuros să constat că este <b>pusabilă</b> în orice cameră din casă, datorită dimensiunilor și designului său versatil.',
+      'Aș zice că acest ghiveci de flori artificiale este foarte <b>pusabil</b> pe biroul tău, deoarece adaugă un strop de culoare fără a necesita îngrijire constantă.',
       'Ce zici de melodia asta? Crezi că e <b>pusabilă</b> ca și muzică de fundal diseară?',
     ],
     etymology: 'prin sudare (a pune + abil)',
@@ -231,8 +232,10 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Participiul verbului „a diverge”.',
     examples: [
-      'Am încercat să aplicăm planul original, dar proiectul a <b>divers</b> de la direcția inițială.',
-      'Când am început să discutăm despre politică, discuția a <b>divers</b> într-un amalgam de schimb de idei.',
+      'În timpul expediției noastre, drumul pe care îl urmăream a <b>divers</b> în mod neașteptat, ducându-ne într-o zonă complet neexplorată.',
+      'La scurt timp după ce am început să discutăm despre politică, discuția a <b>divers</b> în diferite direcții etice și filozofice.',
+      '<b>Am divers</b> de la planul inițial atunci când am decis să evităm autostrada și să explorăm drumurile secundare, care s-au dovedit a fi mai pitoreși.',
+      'Când ne-am apropiat de oraș, drumul principal <b>a divers</b> în mai multe ramificații, făcând dificilă alegerea rutei corecte fără un GPS.',
     ],
     etymology: 'prin conjugare (diverge)',
   },
@@ -431,7 +434,11 @@ const wordList = [
     word: 'îndoibil(ă)',
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi îndoit (cu ușurință).',
-    examples: ['Se vede că acest telefon e făcut din aluminiu, e mult mai <b>îndoibil</b> decât varianta din oțel.'],
+    examples: [
+      'Se vede că acest telefon e făcut din aluminiu, e mult mai <b>îndoibil</b> decât varianta din oțel.',
+      'Tehnologia modernă a făcut posibile ecranele îndoibile, revoluționând designul dispozitivelor mobile.',
+      'În arta origami, este esențial să folosești hârtie ușor îndoibilă pentru a crea forme complexe.',
+    ],
     etymology: 'prin sudare (a îndoi + abil)',
   },
   {
@@ -440,7 +447,11 @@ const wordList = [
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Termen neutru de gen care se referă la un frate sau o soră.',
-    examples: ['Am în total 5 <b>frăsori</b>: 2 frați și 3 surori.', 'Ea se înțelege foarte bine cu <b>frăsorii</b> ei.'],
+    examples: [
+      '-Andrei, câți <b>frăsori</b> ai? -Am trei <b>frăsori</b>: un frate și două surori.',
+      'La reuniunea de familie de anul acesta vor fi prezenți toți <b>frăsorii</b> mei, inclusiv cei care locuiesc în străinătate.',
+      'Adriana se înțelege foarte bine cu <b>frăsorii</b> ei.',
+    ],
     etymology: 'Amestec între "frate" și "soră".',
   },
   {
@@ -451,6 +462,7 @@ const wordList = [
     definition: 'Termen neutru de gen care se referă la un fiu sau o fiică.',
     examples: [
       'Am doi <b>fili</b>: Marian și Diana.',
+      'Majoritatea copiilor de la grădiniță se entuziasmează imediat când li se propune o excursie în aer liber, pe când <b>filii</b> mei sunt mai rezervați, preferând să exploreze natura pe cont propriu.',
       'Weekendul acesta voi avea grijă de 3 copii dar doar 2 dintre ei sunt <b>filii</b> mei.',
     ],
     etymology: 'inventare',
@@ -464,6 +476,7 @@ const wordList = [
     examples: [
       'După copilărie și adolescență, urmează <b>adulția</b>.',
       'Oamenii au de obicei mai mult timp la bătrânețe decât la <b>adulție</b>.',
+      'Multe din deciziile importante în viață, cum ar fi alegerea carierei sau stabilirea unei familii, sunt luate în perioada de <b>adulție</b>.',
     ],
     etymology: 'prin sufixarea cuvântului „adult”',
   },
@@ -617,8 +630,9 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Ceva ce poate fi dat.',
     examples: [
-      'Am decis să donez cărțile mele vechi către biblioteca locală, deoarece majoritatea sunt deja citite, deci chiar <b>dabile</b>.',
-      'Eu returnez produsele într-o stare cât mai bună, ca să fie <b>dabile</b> la următorii clienți.',
+      'Toate aceste cărți sunt <b>dabile</b>, le-am citit deja și mi-ar plăcea să le împărtășesc cu alții.',
+      'Am adunat o mulțime de jucării <b>dabile</b> copiilor de la orfelinat.',
+      'Hainele acestea sunt încă într-o condiție excelentă și perfect <b>dabile</b> pentru magazinul second-hand.',
     ],
     etymology: 'prin sudare (a da + abil)',
   },
