@@ -25,7 +25,7 @@ export default function Word({ word: mainWord, sisterWords }) {
         <div className="img-wrapper">
           <img
             className="word-image"
-            src={`/images/${mainWord.useAsGroupImage ? mainWord.slug : selectedWord.slug}.jpeg`}
+            src={`images/${mainWord.useAsGroupImage ? mainWord.slug : selectedWord.slug}.jpeg`}
             alt={mainWord.word}
           />
           <div className="gradient"></div>
