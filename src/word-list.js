@@ -637,11 +637,11 @@ const wordList = [
     etymology: 'prin sudare (a da + abil)',
   },
   {
-    slug: 'autoritativa',
+    slug: 'autoritativ',
     word: 'autoritativ(ă)',
     partOfSpeech: 'adjectiv',
     definition:
-      'Informație sau sursă de informație care are o încredere și recunoaștere largă, fiind adesea considerată definitivă sau concludentă.',
+      'Informație sau sursă de informație care are o încredere și recunoaștere largă, fiind adesea considerată definitivă, concludentă sau oficială.',
     examples: [
       'Publicația aceasta este considerată o sursă <b>autoritativă</b> în domeniul tehnologiei.',
       'Informația <b>autoritativă</b> prezentată în raportul oficial a clarificat multe dintre îndoielile existente.',
@@ -655,7 +655,7 @@ const wordList = [
     definition: 'Care implică sau este caracteristic unei singure planete.',
     examples: [
       'Deși tehnologic avansată, umanitatea este încă o civilizație <b>monoplanetară</b>, dependentă de resursele Terrei.',
-      'În diversitatea galaxiei noastre, întâlnim atât sisteme solare atât cu multiple planete (precum Sistemul Solar), cât și <b>monoplanetare</b>, care sunt formate dintr-o singură planetă ce orbitează o stea.',
+      'În diversitatea galaxiei noastre, întâlnim atât sisteme solare cu multiple planete (precum Sistemul Solar), cât și sisteme solare <b>monoplanetare</b>, care sunt formate dintr-o singură planetă ce orbitează o stea.',
     ],
     etymology: 'Combinarea termenilor "mono" (singur, unic) și "planetar" (referitor la planetă)',
   },
@@ -665,9 +665,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Care implică sau este caracteristic mai multor planete.',
     examples: [
-      'Cu tehnologia sa avansată, civilizația umană visează să devină la un moment dat <b>multiplanetară</b>, extinzându-se pe mai multe corpuri cerești.',
-      'Sistemele solare <b>multiplanetare</b>, cu mai multe planete orbitând o singură stea, sunt comune în galaxia noastră.',
       'Tranziția de la o civilizație <b>monoplanetară</b> la una <b>multiplanetară</b> ar reprezenta un salt major în evoluția umanității.',
+      'Sistemele solare <b>multiplanetare</b>, cu mai multe planete orbitând o singură stea, sunt cele mai comune în galaxia noastră.',
     ],
     etymology: 'Combinarea termenilor "multi" (mulți, numeroși) și "planetar" (referitor la planetă)',
   },
@@ -676,7 +675,7 @@ const wordList = [
     word: 'Viață',
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
-    definition: 'Entitate (organism) imaterială care înglobează toate formele de viață într-un scop unic și comun.',
+    definition: 'Entitate/organism imaterial care înglobează toate formele de viață într-un scop unic și comun.',
     examples: [
       'Spre deosebire de conceptul tradițional de viață atribuit fiecărui individ, <b>Viața</b> (cu V mare) reprezintă sinergia vastă dintre toate entitățile vii, formând o entitate unitară cu o misiune comună.',
       'Prin contrast cu viața asignată unui individ, <b>Viața</b> reprezintă o rețea complexă ce unește toate formele de existență care au viață, reflectând un scop comun și interconectat.',
