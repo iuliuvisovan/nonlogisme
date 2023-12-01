@@ -232,8 +232,8 @@ const wordList = [
     partOfSpeech: 'adjectiv',
     definition: 'Participiul verbului „a diverge”.',
     examples: [
-      'În timpul expediției noastre, drumul pe care îl urmăream a <b>divers</b> în mod neașteptat, ducându-ne într-o zonă complet neexplorată.',
-      'La scurt timp după ce am început să discutăm despre politică, discuția a <b>divers</b> în diferite direcții etice și filozofice.',
+      'În timpul expediției noastre, drumul pe care îl urmăream <b>a divers</b> în mod neașteptat, ducându-ne într-o zonă complet neexplorată.',
+      'La scurt timp după ce am început să discutăm despre politică, discuția <b>a divers</b> în diferite direcții etice și filozofice.',
       '<b>Am divers</b> de la planul inițial atunci când am decis să evităm autostrada și să explorăm drumurile secundare, care s-au dovedit a fi mai pitoreși.',
       'Când ne-am apropiat de oraș, drumul principal <b>a divers</b> în mai multe ramificații, făcând dificilă alegerea rutei corecte fără un GPS.',
     ],
