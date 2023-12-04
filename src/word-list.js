@@ -689,9 +689,9 @@ const wordList = [
     partOfSpeech: 'verb',
     definition: 'A oferi divertisment.',
     examples: [
-      'La petrecere, clovnul i-a amuzat pe cei mici, însă magicianul a reușit să <b>divertizeze</b> invitații de toate vârstele.',
-      'Compania a angajat un grup de actori pentru a <b>divertiza</b> copiii la evenimentul de caritate.',
-      'Spectacolul de stand-up a avut succes în a <b>divertiza</b> publicul de toate vârstele.',
+      'La petrecere, clovnul i-a amuzat pe cei mici, în timp ce magicianul a reușit să <b>divertizeze</b> invitații de toate vârstele.',
+      'Compania a angajat un grup de actori pentru <b>a divertiza</b> copiii la evenimentul de caritate.',
+      'Spectacolul de stand-up a avut succes în <b>a divertiza</b> publicul de toate vârstele.',
     ],
     etymology:
       'Derivat de la cuvântul "divertisment", împrumutat din francezul "divertissement", provenind din latinescul "divertere" (a distrage, a abate), cu adăugarea sufixului "-iza" pentru formarea verbelor.',
@@ -707,7 +707,7 @@ const wordList = [
       'Articolul de știri ambiguu a <b>confuzionat</b> publicul cu privire la evenimentele recente.',
     ],
     etymology:
-      'Derivat de la cuvântul "confuzie", cu adăugarea sufixului "-iona" pentru formarea verbelor, similar cu structura altor verbe precum "a acționa" sau "a reacționa".',
+      'Derivat de la cuvântul "confuzie", cu adăugarea sufixului "-iona" pentru formarea verbelor.',
   },
 ];
 
