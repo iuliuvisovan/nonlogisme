@@ -689,25 +689,12 @@ const wordList = [
     partOfSpeech: 'verb',
     definition: 'A oferi divertisment.',
     examples: [
-      'La petrecere, clovnul i-a amuzat pe cei mici, în timp ce magicianul a reușit să <b>divertizeze</b> invitații de toate vârstele.',
-      'Compania a angajat un grup de actori pentru <b>a divertiza</b> copiii la evenimentul de caritate.',
-      'Spectacolul de stand-up a avut succes în <b>a divertiza</b> publicul de toate vârstele.',
+      'La petrecerea lui Paul a venit un magician care <b>divertizat</b> copiii de toate vârstele cu trucurile sale.',
+      'Compania a angajat un grup de actori pentru <b>a divertiza</b> invitații la evenimentul de caritate.',
+      'Aseară m-am <b>divertizat</b> uitându-mă la trei episoade din telenovela mea preferată.',
     ],
     etymology:
-      'Derivat de la cuvântul "divertisment", împrumutat din francezul "divertissement", provenind din latinescul "divertere" (a distrage, a abate), cu adăugarea sufixului "-iza" pentru formarea verbelor.',
-  },
-  {
-    slug: 'confuziona',
-    word: 'a confuziona',
-    partOfSpeech: 'verb',
-    definition: 'A induce pe cineva în eroare sau confuzie, fie intenționat sau accidental, prin informații greșite sau neclare.',
-    examples: [
-      'Sistemul de navigare al mașinii ne-a <b>confuzionat</b> cu indicații contradictorii, astfel că am ajuns să ne rătăcim în suburbia orașului.',
-      'Explicațiile contradictorii ale profesorului au reușit să <b>confuzioneze</b> elevii.',
-      'Articolul de știri ambiguu a <b>confuzionat</b> publicul cu privire la evenimentele recente.',
-    ],
-    etymology:
-      'Derivat de la cuvântul "confuzie", cu adăugarea sufixului "-iona" pentru formarea verbelor.',
+      'Derivat de la cuvântul "divertisment" provenind din latinescul "divertere" (a distrage, a abate), cu adăugarea sufixului "-iza" pentru formarea verbelor.',
   },
 ];
 
