@@ -49,7 +49,7 @@ p {
   color: hsl(217 10% 70% / 1);
 
   .word-name {
-    white-space: nowrap;
+    /* white-space: nowrap; */
 
     &.active {
       color: #102e5e;

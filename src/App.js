@@ -13,11 +13,11 @@ function App() {
       <h2>
         Ce sunt <b>nonlogismele</b>?
       </h2>
-      <span>
-        <b>"Nonlogismele"</b> sunt cuvinte create pentru a descrie un cuvânt care nu există într-o limbă dar ar trebui să existe (un
-        gol/lacună lexicală), iar nevoia acestora se simte în realitatea lingvistică.
-      </span>
-      <h2 style={{ marginTop: 40 }}>Lista nonlogismelor actuale</h2>
+      <h3 className="subtitle">
+        Un <b>"nonlogism"</b> este un cuvânt care nu există într-o limbă dar ar trebui să existe conform realității lingvistice. Un
+        gol/lacună lexicală.
+      </h3>
+      <h2>Lista nonlogismelor actuale</h2>
       <div>
         {wordList
           .filter((x) => !x.groupId)

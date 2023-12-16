@@ -25,12 +25,21 @@ h1 {
   color: #102e5e;
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 60px;
 }
 
 p {
   color: #444;
   line-height: 1.4;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -40,5 +49,9 @@ p {
 
   h1 {
     font-size: 2rem;
+  }
+
+  h2 {
+    margin-top: 24px;
   }
 }
