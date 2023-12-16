@@ -644,7 +644,7 @@ const wordList = [
     definition:
       'Informație sau sursă de informație care are o încredere și recunoaștere largă, fiind adesea considerată definitivă, concludentă sau oficială.',
     examples: [
-      'Publicația aceasta este considerată o sursă <b>autoritativă</b> în domeniul tehnologiei.',
+      'Această publicație e considerată o sursă <b>autoritativă</b> în domeniul medicinei.',
       'Informația <b>autoritativă</b> prezentată în raportul oficial a clarificat multe dintre îndoielile existente.',
     ],
     etymology: 'calchiere. de la termenul englez "authoritative" prin adaptare fonetică și morfologică',
