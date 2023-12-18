@@ -18,8 +18,11 @@ const wordList = [
     partOfSpeech: 'substantiv',
     partOfSpeechType: 'comun',
     definition: 'Proces de creare a cuvintelor noi într-o limbă prin combinarea și manipularea formelor morfologice existente.',
-    examples: ['<b>Morfosinteza</b> a fost folosită pentru a crea cuvântul "frăsori" prin combinarea cuvintelor "frate" și "soră".'],
-    etymology: 'Combinarea cuvintelor "morfologie" și "sinteză".',
+    examples: [
+      'La cursul de lingvistică am aflat cum, folosind <b>morfosinteza</b>, o limbă își poate crea concepte noi pe baza celor deja existente.',
+      'Derivarea cu sufixe și prefixe este un tip de <b>morfosinteză</b> în cadrul unei limbi.',
+    ],
+    etymology: '"morf" (de la morfologie - studiul formei cuvintelor) + "sinteză"',
   },
   {
     slug: 'acunci',
@@ -28,7 +31,7 @@ const wordList = [
     partOfSpeechType: 'de timp',
     definition: 'Adverbul „acum”, doar că relativ la „atunci”.',
     examples: [
-      'Era anul 2019, iar România celebra revoluția de <b>acunci</b> 30 ani.',
+      'Era anul 2009, iar România celebra revoluția de <b>acunci</b> 20 de ani.',
       'M-a întrebat Adrian miercurea trecută dacă vreau să vin la fotbal dar am refuzat, deoarece eu tocmai jucasem <b>acunci</b> 2 zile.',
     ],
     etymology: 'prin fuziune „acum” + „atunci”',
@@ -40,8 +43,9 @@ const wordList = [
     partOfSpeechType: 'comun',
     definition: 'Formă de participiu a verbului „a fi”. Poate fi folosit în același mod în care sunt folosite participiile altor verbe.',
     examples: [
-      'Mâncatul de mere este sănătos, iar <b>fiutul</b> de student la medicină implică multe ore de studiu și practică.',
-      '<b>Fiutul</b> de președinte este o responsabilitate mare.',
+      '<b>Fiutul</b> de președinte este o mare responsabilitate.',
+      '<b>Fiutul</b> de student la medicină implică multe ore de studiu și dedicare.',
+      '<b>Fiutul</b> de cetățean străin într-o țară nouă e cu-adevărat o provocare.',
     ],
     etymology: 'morfosinteză',
   },
