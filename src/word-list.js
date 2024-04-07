@@ -701,6 +701,30 @@ const wordList = [
     etymology:
       'Derivat de la cuvântul "divertisment" provenind din latinescul "divertere" (a distrage, a abate), cu adăugarea sufixului "-iza" pentru formarea verbelor.',
   },
+  {
+    slug: 'insosetat',
+    word: 'înșosetat(ă)',
+    partOfSpeech: 'adjectiv',
+    definition: 'Cu șosete, dar fără încălțăminte.',
+    examples: [
+      'Când am ajuns la cursul de yoga mi-am dat jos pantofiii și-am rămas înșosetat, însă majoritatea celorlalți erau desculți.',
+      'Când au sosit părinții lui Andrei, acesta s-a bucurat atât de tare încât a ieșit înșosetat în curte să-i întâmpine.',
+    ],
+    etymology:
+      'Derivat de la cuvântul "șosetă" cu adăugarea prefixului "în-" pentru a indica starea de a purta șosete, dar fără încălțăminte.',
+  },
+  {
+    slug: 'vantos',
+    word: 'Vântos/Vântoasă',
+    partOfSpeech: 'adjectiv',
+    definition: 'Care este expus la vânt sau care este caracterizat de vânt.',
+    examples: [
+      'Nu am putut lăsa ghivecele pe balcon deoarece era prea vântos.',
+      'Vremea din ultimele zile a fost foarte ploioasă, iar astăzi a devenit și vântoasă.',
+      'Prognoza meteo prevede o după-amiază vântoasă.',
+    ],
+    etymology: 'Derivat de la cuvântul "vânt" cu adăugarea sufixului "-os" pentru a indica caracteristicile vântului.',
+  },
 ];
 
 export default wordList;
