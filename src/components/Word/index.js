@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import './styles.css';
+import React, { useState } from "react";
+import "./styles.css";
 
 const partOfSpeechColors = {
-  substantiv: '#102e5e',
-  verb: '#4caf50',
-  adjectiv: '#2196f3',
-  adverb: '#ff9800',
-  numeral: '#9c27b0',
-  interjecție: '#fc67f0',
+  substantiv: "#102e5e",
+  verb: "#4caf50",
+  adjectiv: "#2196f3",
+  adverb: "#ff9800",
+  numeral: "#9c27b0",
+  interjecție: "#fc67f0",
 };
 
-export default function Word({ word: mainWord, sisterWords }) {
+export default function Word({ word: mainWord, sisterWords, query }) {
   const color = partOfSpeechColors[mainWord.partOfSpeech];
 
   const [selectedWord, setSelectedWord] = useState(mainWord);
@@ -25,26 +25,62 @@ export default function Word({ word: mainWord, sisterWords }) {
         <div className="img-wrapper">
           <img
             className="word-image"
-            src={`images/${mainWord.useAsGroupImage ? mainWord.slug : selectedWord.slug}.jpeg`}
+            src={`images/${
+              mainWord.useAsGroupImage ? mainWord.slug : selectedWord.slug
+            }.jpeg`}
             alt={mainWord.word}
           />
           <div className="gradient"></div>
         </div>
         <div className="word-header-info">
           <h2 className="word-title">
-            {[mainWord, ...sisterWords].map((x, i, a) => (
-              <span
-                className={`word-name ${mainWord.slug} ${selectedWord.slug === x.slug ? 'active' : ''}`}
-                onClick={() => showWord(x)}
-                title={x.definition}
-              >
-                {/* {selectedWord.slug !== x.slug && <img className="small-word-image" src={`/images/${x.slug}.jpeg`} alt={mainWord.word} />} */}
-                {x.word}
-                {i < a.length - 1 ? ', ' : ''}
-              </span>
-            ))}
+            {[mainWord, ...sisterWords].map((x, i, a) => {
+              const queryIndex = x.word
+                .toLowerCase()
+                .indexOf(query.toLowerCase());
+              const firstPart = x.word.slice(0, queryIndex);
+              const secondPart = x.word.slice(
+                queryIndex,
+                queryIndex + query.length
+              );
+              const thirdPart = x.word.slice(
+                queryIndex + query.length,
+                x.word.length
+              );
+              return query && x === mainWord ? (
+                <span
+                  className={`word-name ${mainWord.slug} ${
+                    selectedWord.slug === x.slug ? "active" : ""
+                  }`}
+                  title={x.definition}
+                  onClick={() => showWord(x)}
+                >
+                  <span>{firstPart}</span>
+                  <span style={{ color: "orange" }}>{secondPart}</span>
+                  <span>
+                    {thirdPart}
+                    {i < a.length - 1 ? ", " : ""}
+                  </span>
+                </span>
+              ) : (
+                <span
+                  className={`word-name ${mainWord.slug} ${
+                    selectedWord.slug === x.slug ? "active" : ""
+                  }`}
+                  onClick={() => showWord(x)}
+                  title={x.definition}
+                >
+                  {/* {selectedWord.slug !== x.slug && <img className="small-word-image" src={`/images/${x.slug}.jpeg`} alt={mainWord.word} />} */}
+                  {x.word}
+                  {i < a.length - 1 ? ", " : ""}
+                </span>
+              );
+            })}
           </h2>
-          <span className="word-part-of-speech" style={{ backgroundColor: color }}>
+          <span
+            className="word-part-of-speech"
+            style={{ backgroundColor: color }}
+          >
             {selectedWord.partOfSpeech}
           </span>
           <span className="word-definition">{selectedWord.definition}</span>
@@ -64,7 +100,11 @@ function WordBody({ word }) {
           <label className="label">Exemple</label>
           <ul>
             {word.examples.map((example, index) => (
-              <li key={index} className="example" dangerouslySetInnerHTML={{ __html: `„${example}”` }}></li>
+              <li
+                key={index}
+                className="example"
+                dangerouslySetInnerHTML={{ __html: `„${example}”` }}
+              ></li>
             ))}
           </ul>
         </div>

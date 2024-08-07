@@ -32,6 +32,26 @@ h2 {
   margin-top: 60px;
 }
 
+.search-bar {
+  position: relative;
+  input {
+    padding: 8px;
+    padding-left: 36px;
+    height: 24px;
+    width: calc(100% - 44px);
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+  }
+  img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 24px;
+  }
+}
+
 p {
   color: #444;
   line-height: 1.4;
