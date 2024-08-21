@@ -725,6 +725,28 @@ const wordList = [
     ],
     etymology: 'Derivat de la cuvântul "vânt" cu adăugarea sufixului "-os" pentru a indica caracteristicile vântului.',
   },
+  {
+    slug: 'gusta',
+    word: 'a gusta',
+    partOfSpeech: 'adjectiv',
+    definition: 'Care emană un anumit gust.',
+    examples: [
+      'Acest măr miroase frumos dar gustă și mai frumos.',
+      'Prăjiturile Alinei arată foarte bine însă nu gustă chiar așa cum arată.',
+    ],
+    etymology: 'Derivat de la cuvântul "gust" cu adăugarea sufixului "-a" pentru a indica acțiunea de a avea gust.',
+  },
+  {
+    slug: 'maxiatura',
+    word: 'maxiatură',
+    partOfSpeech: 'substantiv',
+    definition: 'Care este de dimensiuni mari, opusul miniaturii.',
+    examples: [
+      'Această expoziție de artă conține <b>maxiaturi</b> ale unor tablouri celebre, care pot fi admirate în detaliu.',
+      'Această machetă este o <b>maxiatură</b> a unei furnici reale, fiind la o scară de 10:1.',
+    ],
+    etymology: 'Derivat de la cuvântul "maxi" cu adăugarea sufixului "-atură" pentru a indica dimensiuni mari.',
+  },
 ];
 
 export default wordList;
