@@ -715,7 +715,7 @@ const wordList = [
     slug: 'insosetat',
     word: 'înșosetat(ă)',
     partOfSpeech: 'adjectiv',
-    definition: 'Cu șosete, dar fără încălțăminte.',
+    definition: 'Cu șosete.',
     examples: [
       'Când am ajuns la cursul de yoga mi-am dat jos pantofiii și-am rămas înșosetat, însă majoritatea celorlalți erau desculți.',
       'Când au sosit părinții lui Andrei, acesta s-a bucurat atât de tare încât a ieșit înșosetat în curte să-i întâmpine.',
@@ -725,7 +725,7 @@ const wordList = [
   },
   {
     slug: 'vantos',
-    word: 'Vântos/Vântoasă',
+    word: 'vântos/vântoasă',
     partOfSpeech: 'adjectiv',
     definition: 'Care este expus la vânt sau care este caracterizat de vânt.',
     examples: [
@@ -738,11 +738,12 @@ const wordList = [
   {
     slug: 'gusta',
     word: 'a gusta',
-    partOfSpeech: 'adjectiv',
-    definition: 'Care emană un anumit gust.',
+    partOfSpeech: 'verb',
+    partOfSpeechType: 'la diateza pasivă',
+    definition: '(la diateza pasivă) Care emană un anumit gust.',
     examples: [
-      'Acest măr miroase frumos dar gustă și mai frumos.',
-      'Prăjiturile Alinei arată foarte bine însă nu gustă chiar așa cum arată.',
+      'Această prăjitură miroase bine dar gustă și mai bine.',
+      'Merele cumpărate de la supermarket arată bine însă nu gustă chiar așa cum arată.',
     ],
     etymology: 'Derivat de la cuvântul "gust" cu adăugarea sufixului "-a" pentru a indica acțiunea de a avea gust.',
   },
@@ -752,21 +753,21 @@ const wordList = [
     partOfSpeech: 'substantiv',
     definition: 'Care este de dimensiuni mari, opusul miniaturii.',
     examples: [
+      'Această machetă este o <b>maxiatură</b> a unei căpșuni, fiind la o scară de 10:1.',
       'Această expoziție de artă conține <b>maxiaturi</b> ale unor tablouri celebre, care pot fi admirate în detaliu.',
-      'Această machetă este o <b>maxiatură</b> a unei furnici reale, fiind la o scară de 10:1.',
     ],
     etymology: 'Derivat de la cuvântul "maxi" cu adăugarea sufixului "-atură" pentru a indica dimensiuni mari.',
   },
   {
     slug: 'confuziona',
     word: 'a confuziona',
-    partOfSpeech: 'substantiv',
+    partOfSpeech: 'verb',
     definition: 'A cauza pe cineva să devină confuz.',
     examples: [
-      'Explicațiile sale au <b>confuzionat</b> elevii, care nu au înțeles exact ce trebuie să facă.',
+      'Explicațiile profesorului mai mult au <b>confuzionat</b> elevii, care nu au înțeles exact ce trebuie să facă.',
       'Întrebările complicate i-au <b>confuzionat</b> pe participanți, care nu au putut răspunde corect.',
     ],
-    etymology: 'Derivat de la cuvântul "maxi" cu adăugarea sufixului "-atură" pentru a indica dimensiuni mari.',
+    etymology: 'Derivat de la cuvântul "confuz" cu adăugarea sufixului "-iona" pentru a forma un verb.',
   },
   {
     slug: 'unchesa',
