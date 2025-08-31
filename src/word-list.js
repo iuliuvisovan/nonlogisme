@@ -757,6 +757,41 @@ const wordList = [
     ],
     etymology: 'Derivat de la cuvântul "maxi" cu adăugarea sufixului "-atură" pentru a indica dimensiuni mari.',
   },
+  {
+    slug: 'confuziona',
+    word: 'a confuziona',
+    partOfSpeech: 'substantiv',
+    definition: 'A cauza pe cineva să devină confuz.',
+    examples: [
+      'Explicațiile sale au <b>confuzionat</b> elevii, care nu au înțeles exact ce trebuie să facă.',
+      'Întrebările complicate i-au <b>confuzionat</b> pe participanți, care nu au putut răspunde corect.',
+    ],
+    etymology: 'Derivat de la cuvântul "maxi" cu adăugarea sufixului "-atură" pentru a indica dimensiuni mari.',
+  },
+  {
+    slug: 'unchesa',
+    word: 'uncheșă',
+    partOfSpeech: 'substantiv',
+    definition: 'Soția unchiului.',
+    examples: [
+      'Unchiul meu Ioan și uncheșa mea Maria celebrează anul acesta 15 ani de căsnicie.',
+      'La petrecerea de ieri au fost prezenți atât uncheșele (soțiile unchilor) cât și mătușile (surorile mamei mele).',
+      'Cumnata mea Anca a născut alaltăieri, astfel că eu am devenit uncheșă alaltăieri.',
+    ],
+    etymology: 'Derivat de la cuvântul "unchi" cu adăugarea sufixului "-eșă" pentru a indica genul/relația de rudenie.',
+  },
+  {
+    slug: 'matus',
+    word: 'mătuș',
+    partOfSpeech: 'substantiv',
+    definition: 'Soțul mătușii.',
+    examples: [
+      'Mătușa mea Maria și mătușul meu Ion sunt căsătoriți de 20 de ani.',
+      'La petrecerea de ieri au fost prezenți atât mătușii cât și unchii (soții mătușilor).',
+      'Cumnata mea Anca a născut alaltăieri, astfel că eu am devenit mătuș alaltăieri.',
+    ],
+    etymology: 'Derivat de la cuvântul "mătușă" cu adăugarea sufixului "-ul" pentru a indica genul/relația de rudenie.',
+  },
 ];
 
 export default wordList;
