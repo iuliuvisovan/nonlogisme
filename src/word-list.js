@@ -788,7 +788,7 @@ const wordList = [
     definition: 'Soțul mătușii.',
     examples: [
       'Mătușa mea Maria și mătușul meu Ion sunt căsătoriți de 20 de ani.',
-      'La petrecerea de ieri au fost prezenți atât mătușii cât și unchii (soții mătușilor).',
+      'La petrecerea de ieri au fost prezenți atât mătușii (soții mătușilor) cât și unchii (frații tatălui meu).',
       'Cumnata mea Anca a născut alaltăieri, astfel că eu am devenit mătuș alaltăieri.',
     ],
     etymology: 'Derivat de la cuvântul "mătușă" cu adăugarea sufixului "-ul" pentru a indica genul/relația de rudenie.',
