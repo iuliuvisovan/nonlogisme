@@ -740,7 +740,7 @@ const wordList = [
     word: 'a gusta',
     partOfSpeech: 'verb',
     partOfSpeechType: 'la diateza pasivă',
-    definition: 'Proprietatea de a avea gust; însușirea de a fi perceptibil la nivelul gustului.',
+    definition: '(la diateza pasivă) Proprietatea de a avea gust; însușirea de a fi perceptibil la nivelul gustului.',
     examples: [
       'Această prăjitură miroase bine dar gustă și mai bine.',
       'Merele cumpărate de la supermarket arată bine însă nu gustă chiar așa cum arată.',
